@@ -20,7 +20,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v2
         with:
-          distributions: 'temurin'
+          distribution: 'temurin'
           java-version: '22'
 
       - name: Build with Maven
