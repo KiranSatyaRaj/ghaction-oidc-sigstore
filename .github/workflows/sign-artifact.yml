@@ -27,7 +27,4 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: check target folder
-        run: cd target && ls -a
-
-      - name: check jar file contents
-        run: cd ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
+        run: cd target && cd ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
