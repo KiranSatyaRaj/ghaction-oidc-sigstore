@@ -28,3 +28,6 @@ jobs:
 
       - name: check target folder
         run: cd target && ls -a
+
+      - name: check jar file contents
+        run: cd ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
