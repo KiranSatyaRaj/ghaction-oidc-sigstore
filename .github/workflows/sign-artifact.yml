@@ -27,7 +27,7 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: check target folder
-        run: cd target && cd ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
+        run: cd target
 
       - name: Run SignArtifact from JAR
         run: java -jar target/ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
