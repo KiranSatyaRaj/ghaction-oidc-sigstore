@@ -28,3 +28,6 @@ jobs:
 
       - name: check target folder
         run: cd target && cd ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
+
+      - name: Run SignArtifact from JAR
+        run: java -jar target/ghactions-oidc-sigstore-1.0-SNAPSHOT.jar
