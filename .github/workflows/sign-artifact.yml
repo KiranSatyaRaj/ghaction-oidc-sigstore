@@ -21,10 +21,12 @@ jobs:
         uses: actions/setup-java@v2
         with:
           distribution: 'temurin'
-          java-version: '22'
+          java-version: 1.8
 
       - name: Build with Maven
-        run: mvn clean install
+        run: mvn -B package --file pom.xml
 
-      - name: Sign Artifact
-        run: java -cp target/my-app-1.0-SNAPSHOT.jar org.example.SignArtifact
+      - name: check target folder
+        run:
+          cd target
+          ls -a
