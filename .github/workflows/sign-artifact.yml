@@ -24,4 +24,4 @@ jobs:
           java-version: 22.0
 
       - name: Test SignArtifact
-        run: mvn clean test
+        run: mvn test -Dsurefire.useFile=false
