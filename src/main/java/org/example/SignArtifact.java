@@ -16,7 +16,7 @@ import java.security.cert.CertificateException;
 import java.security.spec.InvalidKeySpecException;
 import java.util.Map;
 
-public class Main {
+public class SignArtifact {
     public static void main(String[] args) throws InvalidAlgorithmParameterException, CertificateException, IOException, NoSuchAlgorithmException, InvalidKeySpecException, InvalidKeyException, KeylessSignerException {
         Bundle result = signPayload();
         System.out.println(result.getMessageSignature().get().getSignature());
