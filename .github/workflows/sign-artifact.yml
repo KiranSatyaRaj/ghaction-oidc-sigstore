@@ -23,13 +23,5 @@ jobs:
           distribution: 'temurin'
           java-version: 22.0
 
-      - name: clean maven package
-        run: mvn clean package
-      - name: Build with Maven
-        run: mvn -B package --file pom.xml
-
-      - name: check target folder
-        run: cd target && ls -a
-
       - name: Test SignArtifact
         run: mvn clean test
