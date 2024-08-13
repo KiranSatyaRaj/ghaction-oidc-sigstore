@@ -32,4 +32,4 @@ jobs:
         run: cd target && ls -a
 
       - name: Run SignArtifact from JAR
-        run: java -cp target/ghactions-oidc-sigstore-1.0-SNAPSHOT.jar org.example.Main
+        run: java -jar target/ghactions-oidc-sigstore-1.0-SNAPSHOT.jar

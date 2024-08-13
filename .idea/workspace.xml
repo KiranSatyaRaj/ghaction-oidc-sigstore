@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbb7d45-073c-412c-8d9e-296467d79d56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/sign-artifact.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/sign-artifact.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
